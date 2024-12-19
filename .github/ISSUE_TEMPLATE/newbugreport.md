@@ -10,7 +10,7 @@
   body: 
     - type: markdown
       attributes: 
-        value: | 
+        value: 
           Thanks for taking the time to fill out this bug report!
     - type: input
       id: contact
