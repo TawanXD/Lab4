@@ -1,16 +1,17 @@
 ---
-name: Bug Report
+name: newbugreport
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1"]
-assignees: - octocat
+projects: ["octo-org/1", "octo-org/44"]
+assignees: 
+  - octocat
 body: 
-    - type: markdown
+  - type: markdown
       attributes:
        value: |
         Thanks for taking the time to fill out this bug report!
-    - type: input
+  - type: input
       id: contact
       attributes:
         label: Contact Details
@@ -18,7 +19,7 @@ body:
         placeholder: ex. email@example.com
       validations:
         required: false
-    - type: textarea
+  - type: textarea
       id: what happened
       attributes:
         label: What happened?
@@ -27,7 +28,7 @@ body:
          value: "A bug happened!"
       validations:
         required: true
-    - type: dropdown
+  - type: dropdown
       id: version
       attributes:
         label: Version
@@ -38,7 +39,7 @@ body:
         default: 0
       validations:
         required: true
-    - type: dropdown
+  - type: dropdown
       id: browsers
       attributes:
         label: What browsers are you seeing the problem on?
@@ -48,13 +49,13 @@ body:
           - Chrome
           - Safari
           - Microsoft Edge
-    - type: textarea
+  - type: textarea
        id: logs
        attributes:
         label: Relevant log output
         description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
         render: shell
-    - type: checkboxes
+  - type: checkboxes
        id: terms
        attributes:
         label: Code of Conduct
