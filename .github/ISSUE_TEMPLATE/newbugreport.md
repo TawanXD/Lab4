@@ -8,8 +8,8 @@ assignees:
   - octocat
 body:
   - type: markdown
-      attributes:
-       value: |
+    attributes:
+      value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
       id: contact
