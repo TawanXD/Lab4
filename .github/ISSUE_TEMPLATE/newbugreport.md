@@ -17,17 +17,17 @@ body:
       label: Contact Details
       description: How can we get in touch with you if we need more info? 
       placeholder: ex. email@example.com
-    validations: 
+      validations: 
       required: false
   - type: textarea
     id: what happened
     attributes:
-        label: What happened?
-        description: Also tell us, what did you expect to happen? 
-        placeholder: Tell us what you see!
-        value: "A bug happened!"
+      label: What happened?
+      description: Also tell us, what did you expect to happen? 
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
       validations:
-        required: true
+      required: true
   - type: dropdown
     id: version
     attributes:
