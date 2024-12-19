@@ -4,9 +4,9 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
-assignees: 
+assignees:
   - octocat
-body: 
+body:
   - type: markdown
       attributes:
        value: |
