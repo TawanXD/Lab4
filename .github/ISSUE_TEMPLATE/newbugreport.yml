@@ -1,5 +1,4 @@
   name: Bug Report 
-  about: cant blank
   description: File a bug report
   title: "[Bug]: "
   labels: ["bug", "triage"]
